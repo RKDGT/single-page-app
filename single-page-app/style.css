@@ -1,0 +1,1009 @@
+body{
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background-image: url("sub-layear-nth.png"), url("city-header.png"),
+    url("Layer 3.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: left bottom, bottom, center;
+  background-color: rgba(0, 0, 0, 0.0188);
+  top:0px;
+  width: 100%;
+  height: 1002px;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 110px;
+}
+.header-content{
+  top:0px;
+  width: 1170px;
+  height: 1002px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  font-size: 36px;
+}
+.logo::before {
+  content: "App";
+  color: darkorange;
+}
+.navbar {
+  margin-top: -100px;
+}
+.nav-items {
+  z-index: 1;
+  opacity: unset;
+}
+.nav-items a {
+  padding: 10px;
+  color: black;
+}
+.try-for-free-btn {
+  background-color: rgb(37, 0, 249);
+  width: 170px;
+  height: 58px;
+  border: unset;
+  border-radius: calc(10px + 2.5vw);
+  text-align: center;
+  color: white;
+}
+.header-main {
+  width: 1130px;
+  display: flex;
+  justify-content: center;
+}
+.header-main-text {
+  padding-top: 250px;
+  width: 50%;
+}
+.header-main-text-1-editiors-choice {
+  font-size: 18px;
+  font-family: "Poppins";
+  color: rgb(36, 47, 81);
+}
+.header-main-text-best-app-for {
+  font-size: 70px;
+  font-family: "Poppins";
+  color: rgb(24, 37, 95);
+  font-weight: bold;
+  line-height: 1.25;
+}
+.text-sub {
+  font-size: 18px;
+  font-family: "Poppins";
+  color: rgb(97, 99, 104);
+}
+.header-main-text-buttons a {
+  color: indigo;
+}
+
+.header-main-phone-pict {
+  padding-top: 54px;
+  height: 732px;
+}
+
+a:hover {
+  text-decoration: None !important;
+}
+
+.feature {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top-header {
+  text-align: center;
+}
+
+.top-trusted-companies {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.top-trusted-companies a{
+  padding-left: 50px;
+}
+
+.feature-content {
+  width: auto;
+  padding-top: 140px;
+  display: flex;
+}
+
+.feature-phone {
+  margin-left: 120px;
+  width: 665px;
+  height: 877px;
+}
+
+.feature-text {
+  display: flex;
+  flex-direction: column;
+  width: 435px;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+.feature-text-header {
+  font-size: 35px;
+  font-family: "Poppins";
+  font-weight: bold;
+  color: black;
+}
+
+.sub-point {
+  display: flex;
+}
+.sub-point-img {
+  width: 90px;
+  height: 90px;
+  float: left;
+}
+.sub-point-text {
+  padding-left: 30px;
+}
+
+.smart-jackpot {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  padding-top: 100px;
+}
+.smart-jackpot-header {
+  display: flex;
+  justify-content: center;
+}
+.smart-jackpot-header-title {
+  width: 500px;
+  font-size: 35px;
+  font-family: "Poppins";
+  font-weight: bold;
+  color: black;
+  border-right: 2px solid black;
+}
+.smart-jackpot-header-description {
+  padding-left: 5%;
+  width: 410px;
+  padding-top: 1%;
+}
+.smart-jackpot-cards {
+  padding-top: 90px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+.smart-jackpot-card {
+  padding-right: 40px;
+  width: 300px;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+.designed-built-by {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+.designed-built-by-img {
+  height: 630px;
+}
+.designed-built-by-text {
+  padding-left: 100px;
+  width: 430px;
+  padding-top: 10%;
+  float:left;
+} 
+.designed-built-by-header {
+  font-size: 25px;
+  font-family: "Poppins";
+  font-weight: bold;
+  color: black;
+}
+
+.why-choose-us {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: auto;
+  width: auto;
+  align-items: center;
+}
+.why-choose-us-header{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.why-choose-us-header-title{
+  text-align: center;
+  width:430px;
+}
+.why-choose-us-header-description{
+  text-align: center;
+  width:630px;
+  font-size: 18px;
+  font-family: "Poppins";
+  color: rgb(97, 99, 104);
+}
+.why-choose-us-cards {
+  padding-top: 60px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+.why-choose-us-card {
+  padding-right: 35px;
+  width: 270px;
+  justify-content: center;
+  padding-bottom: 60px;
+} 
+.why-choose-us-card img {
+  padding-bottom: 10px;
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  display: block;
+}
+.why-choose-us-card-text h5{
+  padding-top: 15px;
+}
+.why-choose-us-card-text p{
+  padding-top: 10px;
+}
+.why-choose-us-card-text h5, .why-choose-us-card-text p{
+  text-align: center;
+}
+
+
+.ultimate-features-that-we-built {
+  padding-top: 150px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ultimate-features-that-we-built-text {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  padding-left: 100px;
+}
+.ultimate-features-that-we-built-phone {
+  height: 800px;
+}
+.ultimate-features-that-we-built-text-header {
+  width: 335px;
+  text-align: left;
+  font-size: 25px;
+  font-family: "Poppins";
+  font-weight: bold;
+  color: black; 
+  padding-left: 25px;
+}
+.ultimate-features-that-we-built-text-sub{
+  width: 400px;
+  padding-left: 25px;
+}
+.ultimate-features-that-we-built-see-all-btn{
+  background-color: rgb(37, 0, 249);
+  width: 170px;
+  height: 57px;
+  border: unset;
+  border-radius: calc(10px + 2.5vw);
+  text-align: center;
+  color: white;
+  margin-left: 25px;
+}
+.ultimate-features-that-we-built-card-text-sub h5, p{
+  text-align: left;
+}
+
+#pricing {
+  align-items: center;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: auto;
+  padding-bottom: 90px;
+}
+.pricing-tab-container{
+  display:flex;
+  justify-content: center;
+  width: auto;
+  padding: 2px 2px 2px 2px;
+}
+.tab {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #ccc;
+  border-radius: 60px;
+  background-color: #f1f1f1;
+  padding: 3px 3px 3px 3px;
+  width: 280px;
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 155px;
+  height: 45px;
+  transition: 0.3s;
+  font-size: 17px;
+  border-radius: 99px;
+}
+.tab button:hover {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #ddd;
+}
+.tab button.active {
+  border-radius: 99px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: rgb(37, 0, 249);
+}
+.tabcontent {
+  display: none;
+  border-top: none;
+}
+
+.pricing-cards {
+  display: flex;
+  margin-top: 20px;
+  width: auto;
+  justify-content: center;
+}
+.pricing-card {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 300px;
+}
+
+.pricing-card-buttom button{
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.pricing-card-top {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  background-color: #f5f7f9;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-bottom: 10px;
+}
+.pricing-card-top p{
+  text-align: center;
+}
+.pricing-card-top-price-month {
+  font-size: 18px;
+  font-family: "Poppins";
+  color: rgb(123, 124, 126);
+}
+
+.pricing-card-top-price {
+  font-size: 33px;
+  font-family: "Poppins";
+  color: rgb(36, 47, 81);
+}
+
+.pricing-card-buttom {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.pricing-card-buttom p{
+  text-align: center;
+}
+
+.testimonila{
+  padding-top: 130px;
+  padding-bottom: 150px;
+  display: flex;
+}
+.testimonila-main-content{
+  display: flex;
+  flex-direction: column;
+}
+.testimonila-main-content-header-title, .testimonila-main-content-header-description{
+  text-align: left;
+  width: 500px;
+}
+.link-sub {
+  font-size: 18px;
+  font-family: "Poppins";
+}
+
+.slider {
+  width: 100%;
+}
+
+.slider-items {
+  height: auto;
+  width: 600px;
+}
+.slider-item{
+  z-index: 0;
+  width: 600px;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.slider-item-star-rait{
+  display: flex;
+}
+.slider-item-header{
+  margin-top: 20px;
+  text-align: left;
+}
+.slider-item-description{
+  font-size: 18px;
+  font-family: "Poppins";
+  color: rgb(97, 99, 104);
+  text-align: left;
+}
+  
+.shown {
+  z-index: 10;
+  opacity: 1;
+}
+.slider-item-footer{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-item-footer-user{
+  width: 300px;
+  display: flex;
+}
+.slider-item-user-personal-info{
+  padding-left: 25px;
+}
+.slider-item-navigation-buttons{
+  width: 120px;
+  display: flex;
+  justify-content: center;
+}
+.slider-prev-item, .slider-next-item{
+  background: none;
+  border-radius: 40px;
+  border-color: rgb(151, 150, 150);   
+  color: rgb(151, 150, 150);
+  width: 50px;
+  height: 50px;
+  outline: none;
+}
+
+.slider-prev-item:focus, .slider-next-item:focus{
+  border:none;
+  outline: none;
+}
+
+.slider-next-item:hover, .slider-prev-item:hover{
+  border:none;
+  outline: none;
+  background: rgb(151, 150, 150);
+  color: blue;
+}
+
+hr.vertical {
+  height: 25px; 
+  width:0;
+  border:1px solid rgb(151, 150, 150);
+}
+
+
+.FAQ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 115px;
+}
+
+.accordion-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.accordion{
+  width: 970px;
+}
+.accordion .card-header.collapsed:after {
+  font-family: 'FontAwesome';  
+  content: "\f067"; 
+  float: right; 
+}
+
+.download-our-app {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.download-our-app-main-content{
+  padding-top: 80px;
+  width: 670px;
+}
+
+.download-our-app-imj{
+  width: 715px;
+}
+
+.download-our-app-header-title{
+  font-weight: bold;
+  line-height: 1.208;
+  font-size: 48px;
+  font-family: "Poppins";
+  color: rgb(36, 47, 81); 
+}
+
+.download-our-app-header-description{
+  font-size: 18px;
+  font-family: "Poppins";
+  color: rgb(123, 124, 126);
+}
+
+.footer{
+  height: auto;
+  padding-bottom: 80px;
+  padding-top: 100px;
+  bottom: 0px;
+  background-color: #09142e;
+  display: flex;
+  flex-direction: column;
+}
+.footer-header, .footer-nav-links, .footer-sub-links, .footer-polite{
+  padding-bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav-links a{
+  padding-left: 12.5px;
+  padding-right: 12.5px;
+  color: #e1e2e6;
+}
+.footer-sub-links a {  
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #273043;
+}
+
+.footer-sub-links a:hover {
+  color: #e1e2e6;
+}
+
+
+
+@media (min-width: 2262px) {
+  /* header */
+  .feature-content {
+    justify-content: center;
+  }
+  .logo {
+    font-size: 118px;
+  }
+  .logo::before {
+    content: "App";
+    color: darkorange;
+  }
+  .nav-items{
+    margin-left: 40px;
+  }
+  .nav-items a {
+    font-size: 40px;
+    padding: 10px;
+    color: black;
+  }
+  .header-content{
+    top:0px;
+    width: 2220px;
+    height: 1002px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header-main{
+    width: auto;
+    justify-content: center;
+  }
+  .try-for-free-btn{
+    font-size: 36px;
+    width: 300px;
+    height: 100px;
+  }
+  .header-main-text-1-editiors-choice, .text-sub {
+    font-size: 40px;
+  }
+  .header-main-text-buttons a{
+    padding-left: 40px;
+    font-size: 40px;
+  }
+
+  /* feature */
+  .top-header{
+    font-size: 40px;  
+  }
+  .top-trusted-companies a img{
+    height: 200px;
+    width: 300px;
+  }
+  .feature-text{
+    width: 2220px;
+  }
+  .feature-phone{
+    width: 1330px;
+    height: 1754px;
+  }
+  .feature-text-header{
+    font-family: "Poppins";
+    color: rgb(36, 47, 81);
+    font-size: 80px;
+  }
+  .sub-point-img{
+    height: 200px;
+    width: 200px;
+  }
+  .sub-point-text{
+    padding-left: 40px;
+  }
+  .sub-point-text h5,.smart-jackpot-text h5, .why-choose-us-card-text h5{
+    font-size: 60px;
+  }
+
+  /* smart-jackpot */
+  .smart-jackpot-header-title{
+    width: 900px;
+    font-size: 80px;
+  }
+  .smart-jackpot-header-description{
+    padding-top: 60px;
+    width: 810px;
+    font-size: 40px;   
+  }
+  .smart-jackpot-img{
+    height: 200px;
+    width: 200px;  
+  }
+  .smart-jackpot-card{
+    width: 500px;
+  }
+  
+  /* designed-built-by */
+  .designed-built-by-img{
+    width:1200px;
+    height: 1260px;
+  }
+  .designed-built-by-text{
+    width:860px;
+  }
+  .designed-built-by-text p{
+    padding-left: 0px;
+  }
+
+  /* why-choose-us */
+  .why-choose-us-header{
+    width: 1940px;
+  }
+  .why-choose-us-header-title{
+    font-weight: bold;
+    width: 860px;
+    font-family: "Poppins";
+    color: rgb(36, 47, 81);
+    font-size: 80px;
+  }
+  .why-choose-us-header-description{
+    width: 1260px;
+    font-family: "Poppins";
+    color: rgb(123, 124, 126);
+    font-size: 40px;
+  }
+  .why-choose-us-cards{
+    width: 1620px;
+  }
+  .why-choose-us-card{
+    width: 540px;
+  }
+  .why-choose-us-card img{
+    width: 200px;
+    height: 200px;
+  }
+
+  /* ultimate-features-that-we-built */
+
+  .ultimate-features-that-we-built-text{
+    width: 1400px;
+    /* order: 2; */
+    align-items: center;  
+  }
+  .ultimate-features-that-we-built-text-header{
+    font-weight: bold;
+    padding-left: 100px;
+    align-self: start;
+    width: 870px;
+    font-family: "Poppins";
+    color: rgb(36, 47, 81);
+    font-size: 80px;
+  }
+  .ultimate-features-that-we-built-text-sub{
+    align-self: start;
+    width: 900px;
+    font-family: "Poppins";
+    color: rgb(123, 124, 126);
+    font-size: 40px;
+    padding-left: 100px;
+  }
+  .ultimate-features-that-we-built-phone{
+    height: 1200px;
+    align-self: center;
+    width: auto;
+    order: 1;
+  }
+  .ultimate-features-that-we-built-see-all-btn{
+    align-self: start;
+    font-size: 36px;
+    width: 300px;
+    height: 100px;
+    margin-left: 100px
+  }
+
+  /* pricing*/
+  .tab{
+    align-items: center;
+    height: 110px;
+    width: 600px;
+  }
+  .tab button{
+    font-size: 40px;
+    width: 280px;
+    height: 90px;
+  }
+  .link-sub{
+    font-size: 40px;
+  }
+  .pricing-card{
+    width: 600px;
+  }
+  .pricing-card-buttom{
+    padding-bottom: 40px;
+  }
+
+  /* testimonila */
+  .testimonila{
+    justify-content: center;
+  }
+  .testimonila-picture{
+    width: 1400px;
+  }
+  .testimonila-main-content{
+    width: 1100px;
+  }
+  .testimonila-main-content-header-title{
+    font-weight: bold;
+    font-family: "Poppins";
+    color: rgb(36, 47, 81);
+    font-size: 80px;
+  }
+  .testimonila-main-content-header-description{
+    font-family: "Poppins";
+    color: rgb(123, 124, 126);
+    font-size: 40px;
+  }
+  .slider-item-star-rait{
+    font-size: 60px;
+    width: 1000px;
+  }
+  .slider-item-header, .slider-item-user-personal-info-header, .download-our-app-header-title{
+    font-family: "Poppins";
+    color: rgb(36, 47, 81);
+    font-size: 60px;
+  }
+  .slider-item-description, .slider-item-user-personal-info-description{
+    font-family: "Poppins";
+    color: rgb(123, 124, 126);
+    font-size: 40px;
+  }
+  .slider-item-footer, .slider-item-description, .slider-item-header, .testimonila-main-content-header-description, .testimonila-main-content-header-title{
+    width: 1000px;
+  }
+  .slider-item-footer-user{
+    width: 671px;
+  }
+  .slider-prev-item, .slider-next-item{
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    border-radius: 60px;
+  }
+  .slider-item-navigation-buttons{
+    width: 230px;
+  }
+  hr.vertical {
+    height: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .FAQ{
+    align-items: center;
+  }
+  .accordion{
+    width: 1800px;
+  }
+  .card-title, .download-our-app-header-description{
+    font-family: "Poppins";
+    color: rgb(123, 124, 126);
+    font-size: 40px;
+  }
+
+  .accordion .card-header.collapsed:after {
+    font-family: 'FontAwesome';  
+    content: "\f067";
+    align-items: center;
+    font-size: 40px; 
+    float: right; 
+  }
+
+
+  /* download-our-app */
+  .download-our-app{
+    justify-content: center;
+  }
+  .download-our-app-imj{
+    width: 1450px;
+  }
+  .play-market img, .app-store img{
+    width: 379px;
+  }
+
+  /* footer */
+  .footer-nav-links, .footer-sub-links {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1419px) {
+  .header{
+    width: auto;
+  }
+  .navbar{
+    width: auto;
+  }
+  .nav-items{
+    padding-left: 60px;
+  }
+  .feature-content{
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature-text{
+    width: 700px;
+    padding: 0px, 0px, 0px, 0px;
+  }
+
+  .smart-jackpot-header{
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .smart-jackpot-header-title{
+    border-right:none;
+    border-bottom: 2px solid black;
+  }
+  
+  .smart-jackpot-header-description{
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+  .smart-jackpot-cards{
+    align-items: center;
+    flex-direction: column;
+  }
+  .smart-jackpot-card{
+    width: 600px;
+    padding-right: 0px;
+  }
+
+  .designed-built-by{
+    flex-direction: column;
+    align-items: center;
+  }
+  .designed-built-by-img{
+    height: 580px;
+    width: 600px;
+  }
+  .feature-text-header{
+   align-items: center;
+  }
+  .designed-built-by-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+    width: auto;
+  }
+  .designed-built-by-text p{
+    text-align: center;
+  }
+  .designed-built-by-text button{
+    margin-top: 20px;
+  }
+
+  .ultimate-features-that-we-built{
+    flex-direction: column;
+    align-items: center;
+  }
+  .ultimate-features-that-we-built-text-sub, .ultimate-features-that-we-built-text-header{
+    text-align: center;
+  }
+  .ultimate-features-that-we-built-see-all-btn{
+    margin-left: 0px;
+  }
+  .ultimate-features-that-we-built-text{
+    order: 2;
+    align-items: center;  
+    padding-left: 0px;
+  }
+
+  .testimonila{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 500px;
+  }
+  .slider-items{
+    display: flex;
+  }
+  .slider-item{
+    position: absolute;
+  }
+  .download-our-app{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;  
+  }
+  .download-our-app-imj {
+    width: auto;
+  }
+  .download-our-app-main-content {
+    order:2;
+    padding-top: 0px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-items a{
+    font-size: 24px;
+  }
+}
